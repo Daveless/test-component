@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="w-full flex flex-col justify-center items-center gap-[2rem]">
-        <header className="flex flex-col items-center gap-[1.5rem] w-full">
+        <header className="flex flex-col items-center gap-[1.5rem] sm:gap-0 w-full">
           <Guarantee />
           <Brands />
         </header>
